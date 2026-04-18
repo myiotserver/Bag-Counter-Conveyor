@@ -1,7 +1,7 @@
 # Penghitung Karung Bag diatas Conveyor Belt (Conveyor Bag Counter)
 
 <div align="justify">
-Aplikasi ini secara otomatis <strong>menghitung dan melacak karung semen</strong> yang melewati ban berjalan (conveyor belt) menggunakan kamera. Sistem ini menggunakan teknologi kecerdasan buatan (AI) berbasis YOLOv8 untuk mendeteksi karung, dan ByteTracker untuk melacaknya satu per satu. Cocok digunakan di pabrik atau gudang untuk memantau jumlah karung secara real-time tanpa perlu menghitung manual.
+Aplikasi ini secara otomatis <strong>menghitung dan melacak karung semen</strong> yang melewati conveyor (conveyor belt) menggunakan kamera. Sistem ini menggunakan teknologi kecerdasan buatan (AI) berbasis YOLOv8 untuk mendeteksi karung, dan ByteTracker untuk melacaknya satu per satu. Cocok digunakan di pabrik atau gudang untuk memantau jumlah karung secara real-time tanpa perlu menghitung manual.
 </div>
 
 ---
