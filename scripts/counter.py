@@ -131,7 +131,12 @@ class videoTest:
 
 
 def main():
-    test = videoTest("/home/hari/cement/datasets/172.20.6.226_Truck Loading PP - 1_main_20230722112747.mp4", "/home/hari/cement/runs/detect/train/weights/best.pt")
+    # Gunakan '0' untuk webcam, atau masukkan path video (contoh: "D:\\video_test.mp4")
+    video_path = 0 
+    # Gunakan model bawaan 'yolov8n.pt' untuk testing sementara jika belum ada best.pt
+    model_path = "yolov8n.pt" 
+    
+    test = videoTest(video_path, model_path)
     test.processVideo()
 
 if __name__ == "__main__":
